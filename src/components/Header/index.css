@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding-right: 30px;
+}
+.home {
+  margin-right: 20px;
+  font-size: 25px;
+}
+.link-item {
+  text-decoration: none;
+}
+.login-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  border-width: 0px;
+  text-align: center;
+  width: 80px;
+  height: 30px;
+}
+.header-image {
+  height: 40px;
+}

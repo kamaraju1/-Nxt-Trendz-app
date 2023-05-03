@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+.login-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  font-family: 'roboto';
+}
+.error-message {
+  color: #ff0b37;
+  text-align: center;
+  font-family: 'roboto';
+  font-family: 10px;
+}
+.image-login {
+  height: 400px;
+  align-self: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  width: 600px;
+}
+.right-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: #475569;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-right: 100px;
+  border-color: #e2e8f0;
+  border-width: 1px;
+  border-style: solid;
+  padding: 40px;
+}
+.right-card-image {
+  height: 40px;
+  align-self: center;
+}
+.user-name-style {
+  background-color: #d7dfe9;
+  color: #64748b;
+  font-family: 'Roboto';
+  border-color: #e2e8f0;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: start;
+  border-width: 0px;
+  padding: 10px;
+}
+.submit-button {
+  background-color: #0967d2;
+  border-radius: 5px;
+  color: #ffffff;
+  border-width: 0px;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  font-size: 15px;
+}
+.name-para {
+  color: #1e293b;
+  font-weight: 500;
+  font-family: 'roboto';
+  font-size: 15px;
+  margin-bottom: 20px;
+}

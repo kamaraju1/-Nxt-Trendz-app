@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+.home-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bottom-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+  align-items: center;
+  padding-left: 40px;
+}
+.shop-now-button {
+  background-color: #0b69ff;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  border-width: 0px;
+  color: #ffffff;
+  width: 90px;
+  height: 40px;
+}
+.heading {
+  color: #1e293b;
+  text-align: start;
+  font-size: 50px;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+.para {
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 29px;
+}
+.cloths-image {
+  height: 350px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.link-style {
+  text-decoration: none;
+}
